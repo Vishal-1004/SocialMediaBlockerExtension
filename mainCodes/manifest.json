@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Page Blocker",
+  "version": "0.0.1",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/logoR_16.png",
+    "32": "images/logoR_32.png",
+    "48": "images/logoR_48.png"
+  }
+}
