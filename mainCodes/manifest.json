@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Page Blocker",
   "version": "0.0.1",
+  "description": "Social Media Blocker Extension: Reclaim focus on you studies, boost your productivity. Block social media distractions with the help of this awesome extension .",
   "permissions": ["activeTab", "storage", "scripting"],
   "action": {
     "default_popup": "index.html"
